@@ -16,7 +16,7 @@ public class OperationsMap {
     }
 
     private void addOperationToMap(GetOperationName operationName) {
-        operationNameMap.put(operationName.GetOperationName(), operationName);
+        operationNameMap.put(operationName.getOperationName(), operationName);
     }
 
     private void autoRegisterOperation(GetOperationName[] operations) {

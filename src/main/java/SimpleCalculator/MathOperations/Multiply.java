@@ -8,7 +8,7 @@ public class Multiply implements GetOperationName {
     }
 
     @Override
-    public String GetOperationName() {
+    public String getOperationName() {
 
         return "*";
     }

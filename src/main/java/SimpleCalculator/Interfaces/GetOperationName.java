@@ -2,7 +2,7 @@ package SimpleCalculator.Interfaces;
 
 public interface GetOperationName {
 
-    String GetOperationName();
+    String getOperationName();
 
     double performOperation(double currentValue, double nextOperand);
 }
