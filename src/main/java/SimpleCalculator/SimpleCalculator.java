@@ -5,8 +5,8 @@ import SimpleCalculator.MathOperations.OperationsMap;
 import SimpleCalculator.UserOperations.UserInputs;
 
 public class SimpleCalculator {
-    private UserInputs input;
-    private OperationsMap operationsMap;
+    final UserInputs input;
+    final OperationsMap operationsMap;
     double currentValue;
 
     public SimpleCalculator() {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UserInputs {
     public Scanner scan;
-    private OperationValidator valid;
+    final OperationValidator valid;
 
     public UserInputs() {
         scan = new Scanner(System.in);
@@ -17,8 +17,7 @@ public class UserInputs {
 
         while (true) {
             try {
-                double number = scan.nextDouble();
-                return number;
+                return scan.nextDouble();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid value. Please enter a valid number:");
                 scan.next();

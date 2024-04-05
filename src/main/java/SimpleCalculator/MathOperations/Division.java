@@ -5,7 +5,7 @@ import SimpleCalculator.UserOperations.UserInputs;
 
 public class Division implements GetOperationName {
 
-    private UserInputs input;
+    final UserInputs input;
 
     public Division(UserInputs input) {
         this.input = input;
